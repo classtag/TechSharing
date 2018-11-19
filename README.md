@@ -1,4 +1,4 @@
 # TechSharing
 
-- [Spark](./spark.md)
-- [Java 8 Concurrency](./java-8-concurrency.md)
+- [Unlock Spark from A to Z](./spark.md)
+- [Mastering Concurrency Programming with Java 8](./java-8-concurrency.md)
