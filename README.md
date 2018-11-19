@@ -35,7 +35,7 @@ Some prior programming or scripting experience is required.
 A crash course in Scala is included, but you need to know the fundamentals of programming in order to pick it up.
 
 ### Sessions
-
+![image]((https://raw.githubusercontent.com/classtag/TechSharing/master/overview.png))
 
 
 ## Mastering Concurrency Programming with Java 8
