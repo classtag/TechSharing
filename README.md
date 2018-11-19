@@ -37,6 +37,16 @@ A crash course in Scala is included, but you need to know the fundamentals of pr
 ### Sessions
 ![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-overview.png)
 
+#### Getting Started
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/getting-started.png)
+
+- **Introduction, and Getting Set Up**
+
+A brief introduction to the course, and then we'll get your development environment for Spark and Scala all set up on your desktop. A quick test application will confirm Spark is working on your system! Remember - be sure to install Spark 2.0.0 or newer.
+
+- **Create a Histogram of Real Movie Ratings with Spark!**
+
+Let's dive right in! We'll download a data set of 100,000 real movie ratings from real people, and run a Spark script that generates histogram data of the distribution of movie ratings. Some final setup of your Scala development environment and downloading the course materials is also part of this lecture, so be sure not to skip this one.
 
 ## Mastering Concurrency Programming with Java 8
   
