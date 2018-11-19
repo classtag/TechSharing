@@ -122,6 +122,22 @@ We'll review my solution to the previous lecture's assignment, and challenge you
 
 Check your results for finding the biggest spenders in our e-commerce data against my own solution.
 
+#### Advanced Examples of Spark Programs
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/advanced-spark.png)
+- **Find the Most Popular Movie**
+We'll revisit our movie ratings data set, and start off with a simple example to find the most-rated movie.
+
+- **Use Broadcast Variables to Display Movie Names**
+Broadcast variables can be used to share small amounts of data to all of the machines on your cluster. We'll use them to share a lookup table of movie ID's to movie names, and use that to get movie names in our final results.
+
+- **Item-Based Collaborative Filtering in Spark, cache(), and persist()**
+Back to our movie ratings data - we'll discover movies that are similar to each other just based on user ratings. We'll cover the algorithm, and how to implement it as a Spark script.
+
+- **Running the Similar Movies Script using Spark's Cluster Manager**
+We'll run our movie similarties script and see the results. In doing so, we'll introduce the process of exporting your Spark script as a JAR file that can be run from the command line using the spark-submit script (instead of running from within the Scala IDE.)
+
+- **Improve the Quality of Similar Movies**
+Your challenge: make the movie similarity results even better! Here are some ideas for you to try out.
 
 
 ## Mastering Concurrency Programming with Java 8
