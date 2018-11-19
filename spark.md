@@ -1,5 +1,4 @@
-# TechSharing
-## Unlock Spark from A to Z
+# Unlock Spark from A to Z
 “Big data" analysis is a hot and highly valuable skill – and this series will discuss with you the hottest technology in big data: Apache Spark. More and more teams are using Spark to quickly extract meaning from massive data sets across a fault-tolerant Hadoop cluster.
 
 What Shall We Discuss together?
