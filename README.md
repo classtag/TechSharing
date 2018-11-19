@@ -41,12 +41,29 @@ A crash course in Scala is included, but you need to know the fundamentals of pr
 ![image](https://raw.githubusercontent.com/classtag/TechSharing/master/getting-started.png)
 
 - **Introduction, and Getting Set Up**
-
 A brief introduction to the course, and then we'll get your development environment for Spark and Scala all set up on your desktop. A quick test application will confirm Spark is working on your system! Remember - be sure to install Spark 2.0.0 or newer.
 
 - **Create a Histogram of Real Movie Ratings with Spark!**
-
 Let's dive right in! We'll download a data set of 100,000 real movie ratings from real people, and run a Spark script that generates histogram data of the distribution of movie ratings. Some final setup of your Scala development environment and downloading the course materials is also part of this lecture, so be sure not to skip this one.
+
+#### Scala Scratch
+Spark works best when using the Scala programming language, and this series includes a crash-course in Scala to get you up to speed quickly.
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/scala-scratch.png)
+- Scala Basics
+
+We'll go over the basic syntax and structure of Scala code with lots of examples. It's backwards from most other languages, but you quickly get used to it
+
+- Flow Control in Scala
+
+You'll see how flow control works in Scala (if/then statements, loops, etc.), and practice what you've learned at the end.
+
+- Functions in Scala
+
+Scala is a functional programming language, and so functions are central to the language. We'll go over the many ways functions can be declared and used in Scala, and practice what you've learned.
+
+- Data Structures in Scala
+We'll cover the common data structures in Scala such as Map and List, and put them into practice.
+
 
 ## Mastering Concurrency Programming with Java 8
   
