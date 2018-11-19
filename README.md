@@ -139,6 +139,67 @@ We'll run our movie similarties script and see the results. In doing so, we'll i
 - **Improve the Quality of Similar Movies**
 Your challenge: make the movie similarity results even better! Here are some ideas for you to try out.
 
+#### Deploy Spark to a Cluster
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/deploy-spark.png)
+- **Using spark-submit to run Spark driver scripts**:
+In a production environment, you'll use spark-submit to start your driver scripts from a command line, cron job, or the like. We'll cover the details on what you need to do differently in this case.
+
+- **Automate package and deploy Spark to EMR**:
+We'll use EMR to illustrate running a Spark script on a real cluster, so let's go over what EMR is and how it works first.
+
+- **Creating Similar Movies from One Million Ratings on EMR**:
+Let's compute movie similarities on a real cluster in the cloud, using one million user ratings!
+
+- **Partitioning**:
+Explicitly partitioning your RDD's can be an important optimization; we'll go over when and how to do this.
+
+- **Best Practices for Running on a Cluster**:
+Other tips and tricks for taking your script to a real cluster and getting it to run as you expect.
+
+- **Troubleshooting, and Managing Dependencies**:
+How to troubleshoot Spark jobs on a cluster using the Spark UI and logs, and more on managing dependencies of your script and data.
+
+#### SparkSQL
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-sql.png)
+- **Introduction to SparkSQL**:
+Understand SparkSQL in Spark 2, and the new DataFrame and DataSet API's used for querying structured data in an efficient, scalable manner.
+
+- **Using SparkSQL**:
+We'll revisit our fabricated social network data, but load it into a DataFrame and analyze it with actual SQL queries!
+
+- **Using DataFrames and DataSets**:
+We'll analyze our movie data another way - this time using SQL-like functions on a DataSet, instead of actual SQL query strings.
+
+- **Using DataSets instead of RDD's**:
+We'll revisit our "most popular movie" exercise, but this time use a DataSet to make getting the answer more straightforward.
+
+#### Machine Learning with MLLib
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-ml.png)
+- **Introducing MLLib**:
+MLLib offers several distributed machine learning algorithms that you can run on a Spark cluster. We'll cover what MLLib can do and how it fits in.
+
+- **Using MLLib to Produce Movie Recommendations**:
+We'll use MLLib's Alternating Least Squares recommender algorithm to produce movie recommendations using our MovieLens ratings data. The results are... unexpected!
+
+- **Linear Regression with MLLib**:
+A brief overview of what linear regression is and how it works, followed by a hands-on example of finding a regression and applying it to fabricated page speed vs. revenue data.
+
+- **Using DataFrames with MLLib**:
+Spark 2 makes DataFrames the preferred API for MLLib. Let's re-write our linear regression example, this time using Spark's DataFrame MLLib API.
+
+#### Intro to Spark Streaming
+![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-streaming.png)
+- **Spark Streaming Overview**:
+Spark Streaming allows you create Spark driver scripts that run indefinitely, continually processing data as it streams in! We'll cover how it works and what it can do.
+
+- **Stream Example**:
+As a hands-on example of using Spark Streaming
+
+- **Structured Streaming**:
+Spark 2.0 introduced experimental support for Structured Streaming, a new DataFrame-based API for writing continuous applications.
+
+
+
 
 ## Mastering Concurrency Programming with Java 8
   
