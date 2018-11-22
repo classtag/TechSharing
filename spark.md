@@ -180,3 +180,6 @@ As a hands-on example of using Spark Streaming
 
 - **Structured Streaming**:
 Spark 2.0 introduced experimental support for Structured Streaming, a new DataFrame-based API for writing continuous applications.
+
+
+Code is here [unlock-spark-with-scala](https://github.com/classtag/unlock-spark-with-scala)
