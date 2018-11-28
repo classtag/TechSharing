@@ -34,10 +34,10 @@ Some prior programming or scripting experience is required.
 A crash course in Scala is included, but you need to know the fundamentals of programming in order to pick it up.
 
 ### Sessions
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-overview.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/spark-overview.png)
 
 #### Getting Started
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/getting-started.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/getting-started.png)
 
 - **Introduction, and Getting Set Up**:
 A brief introduction to the course, and then we'll get your development environment for Spark and Scala all set up on your desktop. A quick test application will confirm Spark is working on your system! Remember - be sure to install Spark 2.0.0 or newer.
@@ -47,7 +47,7 @@ Let's dive right in! We'll download a data set of 100,000 real movie ratings fro
 
 #### Scala Scratch
 Spark works best when using the Scala programming language, and this series includes a crash-course in Scala to get you up to speed quickly.
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/scala-scratch.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/scala-scratch.png)
 - **Scala Basics**:
 We'll go over the basic syntax and structure of Scala code with lots of examples. It's backwards from most other languages, but you quickly get used to it
 
@@ -61,7 +61,7 @@ Scala is a functional programming language, and so functions are central to the 
 We'll cover the common data structures in Scala such as Map and List, and put them into practice.
 
 #### Spark Basics and Simple Examples
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-basics.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/spark-basics.png)
 - **Introduction to Spark**
 
 What is Apache Spark anyhow? What does it do, and what is it used for?
@@ -106,7 +106,7 @@ We'll review my solution to the previous lecture's assignment, and challenge you
 Check your results for finding the biggest spenders in our e-commerce data against my own solution.
 
 #### Advanced Examples of Spark Programs
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/advanced-spark.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/advanced-spark.png)
 - **Find the Most Popular Movie**:
 We'll revisit our movie ratings data set, and start off with a simple example to find the most-rated movie.
 
@@ -123,7 +123,7 @@ We'll run our movie similarties script and see the results. In doing so, we'll i
 Your challenge: make the movie similarity results even better! Here are some ideas for you to try out.
 
 #### Deploy Spark to a Cluster
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/deploy-spark.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/deploy-spark.png)
 - **Using spark-submit to run Spark driver scripts**:
 In a production environment, you'll use spark-submit to start your driver scripts from a command line, cron job, or the like. We'll cover the details on what you need to do differently in this case.
 
@@ -143,7 +143,7 @@ Other tips and tricks for taking your script to a real cluster and getting it to
 How to troubleshoot Spark jobs on a cluster using the Spark UI and logs, and more on managing dependencies of your script and data.
 
 #### SparkSQL
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-sql.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/spark-sql.png)
 - **Introduction to SparkSQL**:
 Understand SparkSQL in Spark 2, and the new DataFrame and DataSet API's used for querying structured data in an efficient, scalable manner.
 
@@ -157,7 +157,7 @@ We'll analyze our movie data another way - this time using SQL-like functions on
 We'll revisit our "most popular movie" exercise, but this time use a DataSet to make getting the answer more straightforward.
 
 #### Machine Learning with MLLib
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-ml.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/spark-ml.png)
 - **Introducing MLLib**:
 MLLib offers several distributed machine learning algorithms that you can run on a Spark cluster. We'll cover what MLLib can do and how it fits in.
 
@@ -171,7 +171,7 @@ A brief overview of what linear regression is and how it works, followed by a ha
 Spark 2 makes DataFrames the preferred API for MLLib. Let's re-write our linear regression example, this time using Spark's DataFrame MLLib API.
 
 #### Intro to Spark Streaming
-![image](https://raw.githubusercontent.com/classtag/TechSharing/master/spark-streaming.png)
+![image](https://raw.githubusercontent.com/classtag/my-tech-sharing/master/images/spark/spark-streaming.png)
 - **Spark Streaming Overview**:
 Spark Streaming allows you create Spark driver scripts that run indefinitely, continually processing data as it streams in! We'll cover how it works and what it can do.
 
